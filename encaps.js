@@ -22,4 +22,4 @@ class Estudante {
 }
 
 const estudante = new Estudante("João", 20);
-estudante.estudar(); // Chama o método estudar() para imprimir a mensagem
+estudante.estudar();
