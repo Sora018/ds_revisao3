@@ -10,16 +10,17 @@ class Estudante {
      
     set idade(novaIdade) {
         if (novaIdade > 0) {
+            console.log(`${this.nome} tinha ${this._idade} anos e agora tem ${novaIdade} anos.`);
             this._idade = novaIdade;
         } else {
             console.error('A idade deve ser um número positivo.');
         }
     }
-     
-    estudar() {
-        console.log(`${this.nome} está estudando.`);
-    }
 }
 
 const estudante = new Estudante("João", 20);
-estudante.estudar();
+
+
+estudante.idade = 25;
+
+estudante.idade = -5;
