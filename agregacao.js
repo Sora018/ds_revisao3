@@ -1,7 +1,6 @@
 class Turma {
-    constructor(nome, disciplina) {
+    constructor(nome) {
         this.nome = nome;
-        this.disciplina = disciplina;
         this.alunos = [];
     }
 
@@ -11,31 +10,15 @@ class Turma {
     }
 }
 
-class Disciplina {
-    constructor(nome) {
-        this.nome = nome;
-    }
-}
-
 class Aluno {
-    constructor(nome, idade, sala) {
-        this.nome = nome;
-        this.idade = idade;
-        this.sala = sala;
-    }
-}
-
-class Professor {
     constructor(nome) {
         this.nome = nome;
     }
 }
 
-const matematica = new Disciplina("Matemática");
-const joao = new Aluno("João", 15, "9A");
-const maria = new Aluno("Maria", 16, "9A");
-const professori = new Professor("Prof. Silva");
-const turma9A = new Turma("9A", matematica);
+const joao = new Aluno("João");
+const maria = new Aluno("Maria");
+const turma9A = new Turma("9A");
 
 turma9A.adicionarAluno(joao);
 turma9A.adicionarAluno(maria);
