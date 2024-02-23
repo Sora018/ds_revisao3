@@ -20,7 +20,5 @@ class Estudante {
 
 const estudante = new Estudante("João", 20);
 
-
 estudante.idade = 25;
-
 estudante.idade = -5;
