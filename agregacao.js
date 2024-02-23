@@ -1,7 +1,7 @@
 class Turma {
     constructor(nome, disciplina) {
         this.nome = nome;
-        this.disciplina = disciplina; // Agregação
+        this.disciplina = disciplina;
         this.alunos = [];
     }
 
