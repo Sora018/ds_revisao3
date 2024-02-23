@@ -10,8 +10,8 @@ class Estudante {
      
     set idade(novaIdade) {
         if (novaIdade > 0) {
-            console.log(`${this.nome} tinha ${this._idade} anos e agora tem ${novaIdade} anos.`);
             this._idade = novaIdade;
+            console.log(`${this.nome} tem ${this._idade} anos.`);
         } else {
             console.error('A idade deve ser um número positivo.');
         }
