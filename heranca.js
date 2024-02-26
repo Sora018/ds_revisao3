@@ -12,15 +12,6 @@ class Estudante extends Pessoa {
   }
 }
 
-class Professor extends Pessoa {
-  constructor(nome, idade, disciplina) {
-      super(nome, idade);
-      this.disciplina = disciplina;
-  }
-}
-
-const estudante = new Estudante("Maria", 18, "12A");
-const professor = new Professor("João", 35, "Matemática");
+const estudante = new Estudante("Maria", 18, "3ºA");
 
 console.log(`Estudante: nome = ${estudante.nome}, idade = ${estudante.idade}, turma = ${estudante.turma}`);
-console.log(`Professor: nome = ${professor.nome}, idade = ${professor.idade}, disciplina = ${professor.disciplina}`);
