@@ -14,4 +14,4 @@ class Estudante extends Pessoa {
 
 const estudante = new Estudante("Maria", 18, "3ºA");
 
-console.log(`Estudante: nome = ${estudante.nome}, idade = ${estudante.idade}, turma = ${estudante.turma}`);
+console.log(`Estudante: nome: ${estudante.nome}, idade: ${estudante.idade}, turma: ${estudante.turma}`);
