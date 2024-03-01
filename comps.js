@@ -26,14 +26,14 @@ class Aluno {
     }
   }
   
-  const aluno1 = new Aluno('João');
+  const aluno1 = new Aluno('Marcelo');
   const aluno2 = new Aluno('Maria');
   
   const turma = new Turma('A');
   turma.adicionarAluno(aluno1);
   turma.adicionarAluno(aluno2);
   
-  const minhaEscola = new Escola('ABC');
+  const minhaEscola = new Escola('Filomena');
   minhaEscola.adicionarTurma(turma);
   
   console.log(minhaEscola.nome);
